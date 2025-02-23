@@ -11,15 +11,19 @@ function App() {
   const clients = [
     { 
       name: 'Northern Soda Company', 
-      logo: 'https://raw.githubusercontent.com/stackblitz/stackblitz-codeflow/main/examples/3brothers-marketing/assets/northern-soda.png'
+      logo: 'https://i.hizliresim.com/ej1s137.png'
     },
     { 
       name: 'P&TY Granola Co', 
-      logo: 'https://raw.githubusercontent.com/stackblitz/stackblitz-codeflow/main/examples/3brothers-marketing/assets/p-and-ty.png'
+      logo: 'https://i.hizliresim.com/q22a0v2.png'
     },
     { 
       name: 'Taco Terco', 
-      logo: 'https://raw.githubusercontent.com/stackblitz/stackblitz-codeflow/main/examples/3brothers-marketing/assets/taco-terco.png'
+      logo: 'https://i.hizliresim.com/tvz3il4.png'
+    },
+    {
+      name: 'JoMamas',
+      logo: 'https://i.hizliresim.com/itrlns9.png'
     }
   ];
 
@@ -46,11 +50,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <img 
-                src="https://imgur.com/a/2Er7x7k"
-                alt="3 Brothers Marketing"
-                className="h-12"
-              />
+              <a href="#home">
+                <img 
+                  src="https://i.hizliresim.com/rm69m47.png" // Use the new URL
+                  alt="3 Brothers Marketing"
+                  className="h-16 w-16" // Set the size to 64x64 pixels
+                />
+              </a>
+              <a href="#home" className="ml-2 text-xl font-bold text-gray-700">3 Brothers Marketing</a>
             </div>
             
             {/* Desktop Navigation */}
@@ -182,15 +189,15 @@ function App() {
                 <div className="space-y-8">
                   <div className="flex items-center">
                     <Phone className="h-6 w-6 text-blue-600" />
-                    <span className="ml-4 text-gray-600">+1 (555) 123-4567</span>
+                    <span className="ml-4 text-gray-600">+1 (651) 491-7345</span>
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-6 w-6 text-blue-600" />
-                    <span className="ml-4 text-gray-600">contact@3brothersmarketing.com</span>
+                    <span className="ml-4 text-gray-600">volkan@3brothersmarketing.com</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-6 w-6 text-blue-600" />
-                    <span className="ml-4 text-gray-600">123 Marketing Street, Business City, 12345</span>
+                    <span className="ml-4 text-gray-600">Minneapolis/St.Paul Area</span>
                   </div>
                 </div>
               </div>
