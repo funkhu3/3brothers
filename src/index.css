@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+input, textarea {
+  @apply p-2 border rounded;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
