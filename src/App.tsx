@@ -23,7 +23,15 @@ function App() {
     },
     {
       name: 'JoMamas',
-      logo: 'https://i.hizliresim.com/itrlns9.png'
+      logo: 'https://i.hizliresim.com/h8v50a9.jpg'
+    },
+    {
+      name: 'Jammin Jimmys',
+      logo: 'https://i.hizliresim.com/q3xn7x7.jpg" '
+    },
+    {
+      name: 'Sturdiwheat',
+      logo: 'https://i.hizliresim.com/d2zwezj.jpg'
     }
   ];
 
