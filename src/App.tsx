@@ -27,7 +27,7 @@ function App() {
     },
     {
       name: 'Jammin Jimmys',
-      logo: 'https://i.hizliresim.com/q3xn7x7.jpg" '
+      logo: 'https://i.hizliresim.com/q3xn7x7.jpg'
     },
     {
       name: 'Sturdiwheat',
