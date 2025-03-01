@@ -32,6 +32,14 @@ function App() {
     {
       name: 'Sturdiwheat',
       logo: 'https://i.hizliresim.com/d2zwezj.jpg'
+    },
+    {
+      name: 'Big Watt Beverage',
+      logo: 'https://i.hizliresim.com/gj0kg4t.jpg'
+    },
+    {
+      name: 'Seven Bridges',
+      logo: 'https://i.hizliresim.com/krf2p1g.jpg'
     }
   ];
 
