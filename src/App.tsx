@@ -52,7 +52,7 @@ function App() {
     const formData = new FormData(e.currentTarget);
     
     try {
-      await fetch('https://formsubmit.co/your-email@example.com', {
+      await fetch('https://formsubmit.co/volkan@3brothersmarketing.com', {
         method: 'POST',
         body: formData,
       });
@@ -222,6 +222,9 @@ function App() {
                 </div>
               </div>
               <form onSubmit={handleSubmit} className="space-y-6">
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://3brothersmarketing.com/thank-you" />
+                <input type="hidden" name="_template" value="table" />
                 {isMessageSent ? (
                   <div className="flex items-center justify-center p-4 bg-green-100 rounded-lg">
                     <CheckCircle className="h-6 w-6 text-green-600 mr-2" />
