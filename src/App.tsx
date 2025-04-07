@@ -40,6 +40,10 @@ function App() {
     {
       name: 'Seven Bridges',
       logo: 'https://i.hizliresim.com/krf2p1g.jpg'
+    },
+    {
+      name: 'Seven Bridges',
+      logo: 'https://i.hizliresim.com/1w3lmzz.jpg'
     }
   ];
 
