@@ -42,8 +42,28 @@ function App() {
       logo: 'https://i.hizliresim.com/krf2p1g.jpg'
     },
     {
-      name: 'Seven Bridges',
-      logo: 'https://i.hizliresim.com/1w3lmzz.jpg'
+      name: 'KonDavis',
+      logo: 'https://i.hizliresim.com/m4yzvq2.jpg'
+    },
+    {
+      name: 'Dinos',
+      logo: 'https://i.hizliresim.com/69suf7c.jpg'
+    },
+    {
+      name: 'Coloma Frozen Foods',
+      logo: 'https://i.hizliresim.com/q3bhb2t.jpg'
+    },
+    {
+      name: 'Nature Blessed',
+      logo: 'https://i.hizliresim.com/4foaurk.jpg'
+    },
+    {
+      name: 'Cry Baby Craigs',
+      logo: 'https://i.hizliresim.com/52p13eh.jpg'
+    },
+    {
+      name: 'Buon Giorno Italia',
+      logo: 'https://i.hizliresim.com/krii546.jpg'
     }
   ];
 
