@@ -12,12 +12,17 @@ function App() {
 
   const clients = [
     { 
-      name: 'Northern Soda Company', 
-      logo: 'https://i.hizliresim.com/ej1s137.png'
-    },
-    { 
       name: 'P&TY Granola Co', 
       logo: 'https://i.hizliresim.com/q22a0v2.png'
+    },
+    { name: 'Mama Stoens', 
+      logo: 'https://i.hizliresim.com/jkfaxpw.jpg'
+    },
+    { name: 'Laperla Tortillas', 
+      logo: 'https://i.hizliresim.com/dhc25fv.png'
+    },
+    { name: 'Smude', 
+      logo: 'https://i.hizliresim.com/63pzhq0.png'
     },
     { 
       name: 'Taco Terco', 
@@ -26,10 +31,6 @@ function App() {
     {
       name: 'JoMamas',
       logo: 'https://i.hizliresim.com/h8v50a9.jpg'
-    },
-    {
-      name: 'Jammin Jimmys',
-      logo: 'https://i.hizliresim.com/q3xn7x7.jpg'
     },
     {
       name: 'Sturdiwheat',
